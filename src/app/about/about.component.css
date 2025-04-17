@@ -1,0 +1,27 @@
+:host {
+    display: block;
+    padding-top: 80px; /* Account for fixed navbar */
+    min-height: calc(100vh - 160px); /* Account for navbar and footer */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  p, li {
+    color: #666;
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 0.5rem;
+  }
