@@ -6,7 +6,7 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { TopNavigationComponent } from './shared/top-navigation/top-navigation.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
-import { ServicesComponent } from './services/services.component';
+// import { ServicesComponent } from './services/services.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent }, 
@@ -15,7 +15,7 @@ const routes: Routes = [
   { path: 'top-navigation', component:  TopNavigationComponent },
   { path: 'login', component: LoginComponent }, 
   { path: 'register', component: RegisterComponent},
-  { path: 'services', component: ServicesComponent}
+  // { path: 'services', component: ServicesComponent}
 ];
 
 @NgModule({

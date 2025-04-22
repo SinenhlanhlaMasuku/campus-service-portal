@@ -36,10 +36,10 @@
   }
   
   .nav-link:hover {
-    color: #4CAF50;
+    color: #cec550;
   }
   
   .active {
-    color: #4CAF50;
+    color: #cec550;
     font-weight: bold;
   }
